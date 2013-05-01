@@ -1,14 +1,16 @@
 /*
+
   Use the following code in each page you wish to have a CAPTCHA image.
-  
+
   Enter the text you see in the following image:
-
+  
   <img src="/getCaptcha.php" width="" height="" alt="Captcha cannot be displayed" />
-
+  
   !-- set width and height attributes as desired -->
 
   <!--Textfield-->
 
+  
   To use generate a random string:
 
   - include this file using require_once() or include()
