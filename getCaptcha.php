@@ -5,7 +5,7 @@
 
   <img src="/getCaptcha.php" width="" height="" alt="Captcha cannot be displayed" />
 
-  <!-- set width and height attributes as desired -->
+  !-- set width and height attributes as desired -->
 
   <!--Textfield-->
 
@@ -13,8 +13,7 @@
 
   - include this file using require_once() or include()
   - call generator() as:
-      $returnString = generator(/*Length of desired string*/);
-
+      $returnString = generator(Length of desired string);
 */
 
 <?php   
