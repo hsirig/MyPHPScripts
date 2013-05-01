@@ -32,7 +32,7 @@
     } 		
     return $code; 	
   } 	
-  $returnCode = random_generator(5);   
+  $returnCode = generator(5);   
   $height = 25;  	
   $width = 55;  	
   $captchaImage = imagecreate($width, $height);  	
@@ -41,5 +41,5 @@
   $fontSize = 14;   	
   imagestring($captchaImage, $fontSize, 5, 5, $returnCode, $textColor);  	
   imagejpeg($captchaImage, NULL, 100);  	
-  echo json_encode($code); 		
+  echo json_encode($returnCode); 		
 ?>
